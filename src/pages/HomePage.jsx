@@ -33,16 +33,16 @@ const HomePage = () => {
                 </h1>
                 <p class="hero-sub">Guided by Mufti Ashraf Jilani Azhari — Al-Azhar University, Cairo. Serving the Muslim community through Darul Ifta, education, and Islamic events across India.</p>
                 <div class="hero-buttons">
-                <a href="#darul-ifta" class="btn-primary">Ask a Fatwa</a>
+                <a href="#darul-ifta" class="btn-primary">Our Initiatives</a>
                 <a href="#events" class="btn-outline">Upcoming Events</a>
                 </div>
             </div>
             <span className="stroke"></span>
             <div class="hero-stats">
-                <div class="hero-stat"><span class="num">500+</span><span class="lbl">Fatwas Issued</span></div>
+                <div class="hero-stat"><span class="num">6+</span><span class="lbl">Years of Impact</span></div>
                 <div class="hero-stat"><span class="num">50+</span><span class="lbl">Events per Year</span></div>
-                <div class="hero-stat"><span class="num">10+</span><span class="lbl">States Covered</span></div>
-                <div class="hero-stat"><span class="num">25+</span><span class="lbl">Years of Service</span></div>
+                <div class="hero-stat"><span class="num">50+</span><span class="lbl">Team Members</span></div>
+                <div class="hero-stat"><span class="num">1M+</span><span class="lbl">Peoples Reached</span></div>
             </div>
       </div>
       </div>

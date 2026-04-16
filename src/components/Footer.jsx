@@ -3,13 +3,14 @@ import "../styles/Footer.css"
 
 const Footer = () => {
   return (
+    //footer font size cjhange
     <div className="footer">
         <div className="footer-section">
             <div className="footer-row">
                 <div className="footer-col">
                     <div className="footer-logo">
                          <h2 className='footer-logo'>تحریک اصلاح امت 
-                        <span className="footer-english-logo">Tehreek Islahe Ummat  · Ganjdundwara, India </span>
+                        <span className="footer-english-logo">Tehreek Islahe Ummat  · Bhilwara, India </span>
                         </h2>
                     <div className="footer-menu">
                     <h1 className="footer-links">
