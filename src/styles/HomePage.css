@@ -1,0 +1,759 @@
+.hero-section{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:2rem;
+}
+
+.hero-div{
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:2px solid #1a4a2e;
+    padding:2rem;
+    border-radius:30px;
+
+}
+
+
+
+.hero-ornament{
+    text-align: center;
+    font-size:2.75rem;
+    opacity: 60%;
+    color:#1a4a2e;
+}
+
+
+
+.hero-section-inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+}
+
+
+
+
+.hero-badge{
+    display: flex;
+    align-items: center;
+    border:1px solid #1a4a2e;
+    width:40%;
+    font-size:1rem;
+    padding-left:1rem;
+     padding-right:1rem;
+    font-weight:600;
+    color:#1a4a2e;
+    letter-spacing:3px;
+    border-radius:30px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins",sans-serif;
+}
+
+
+.hero-arabic{
+    margin-top:1rem;
+    font-size:3rem;
+    line-height: 2rem;
+    color:#1a4a2e;
+}
+
+
+
+.hero-title{
+    font-size:3.5rem;
+    line-height: 3rem;
+    text-align: center;
+    color:#1a4a2e;
+    font-family: "EB Garamond", serif;
+    font-weight:200;
+}
+
+.hero-sub{
+    font-size:1.25rem;
+    font-family: "Poppins",sans-serif;
+    width: 90%;
+    text-align: center;
+    margin-top:-0.5rem;
+}
+
+
+
+
+.hero-buttons{
+    margin-top:1rem;
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    font-size:1.5rem;
+    background-color:#1a4a2e;
+    color:#fff;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border-radius:30px;
+    width: 40%;
+    text-align: center;
+  
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0.75rem 15px;
+    text-decoration: none;
+}
+
+.btn-outline
+{
+    width: 40%;
+    text-align: center;
+    font-size:1.5rem;
+    border:1px solid #1a4a2e;
+    color:#1a4a2e;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border-radius:30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0.75rem 15px;
+    text-decoration: none;
+}
+
+.stroke{
+    background-color:#f4ca15;
+    margin-top:2rem;
+    height:0.5px;
+    width:75%;
+}
+
+@media(max-width:768px){
+
+    .hero-ornament{
+        font-size:2rem;
+    }
+    .hero-div{
+        padding:1rem;
+    }
+
+    .hero-section-inside{
+        width:90%;
+    }
+
+    .hero-badge{
+        width:80%;
+        font-size:0.9rem
+    }
+
+    .hero-arabic{
+        font-size:2.5rem;
+    }
+
+    .hero-title{
+        font-size:3rem;
+    }
+
+    .hero-sub{
+        width:100%;
+        font-size:0.8rem;
+    }
+
+    .hero-buttons{
+        width: 100%;
+        gap:1rem;
+    }
+
+    .btn-primary{
+        font-size:1.25rem;
+    }
+
+    .btn-outline{
+        font-size:1.25rem;
+    }
+}
+
+.hero-stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width:80%;
+   
+}
+
+.hero-stat{
+    
+    padding:1.5rem;
+    text-align: center;
+    border-radius:10px;
+    display: flex;
+    width:15%;
+    flex-direction: column;
+}
+
+.num{
+    font-size:3rem;
+    font-family: "EB Garamond", serif;
+}
+
+.lbl{
+    font-family: "EB Garamond", serif;
+    font-size:1.25rem;
+}
+
+@media(max-width:768px){
+    .hero-stats{
+        width:100%;
+    }
+
+    .hero-stat{
+        padding:0.5rem;
+    }
+
+    .num{
+        font-size:2.25rem;
+    }
+
+    .lbl{
+        font-size:1rem;
+    }
+}
+
+
+.quote-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:2rem;
+    gap:2rem;
+    
+}
+
+
+.quote-section-left{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.arabic-verse{
+    font-size:4.25rem;
+    color:#1a4a2e;
+    font-weight:300;
+    text-align: right;
+}
+
+.arabic-reference{
+    font-size:2rem;
+    margin-top:-2rem;
+    text-align: right;
+    font-weight:400;
+    color:#1a4a2e;
+    opacity:60%;
+}
+
+.quote-section-right{
+    width: 40%;
+}
+
+.english-verse{
+    font-size:3.5rem;
+    font-family: "EB Garamond", serif;
+    font-weight:400;
+    color:#1a4a2e;
+    
+}
+.quote-stroke{
+    width:2px;
+    height:15rem;
+    background-color:#f4cb1549;
+}
+
+.english-reference{
+    font-size:2rem;
+    font-family: "EB Garamond", serif;
+    font-weight:400;
+    color:#1a4a2e;
+     opacity:60%;
+}
+
+.quote-stroke-mobile{
+    display: none;
+}
+
+@media(max-width:768px){
+    .quote-section{
+        flex-direction: column;
+    }
+
+    .quote-section-left{
+        width: 90%;
+        
+    }
+
+    .arabic-verse{
+        text-align: center;
+        font-size:3.5rem;
+        line-height:4rem;
+    }
+
+    .arabic-reference{
+        text-align: center;
+    }
+
+    .quote-section-right{
+        width: 90%;
+    }
+
+    .english-verse{
+        text-align: center;
+        font-size:2.5rem;
+    }
+
+    .english-reference{
+        text-align: center;
+    }
+
+    .quote-stroke{
+        display:none;
+    }
+
+    .quote-stroke-mobile{
+        display: block;
+        width:90%;
+        height:1px;
+        background-color:#f4cb158c;
+    }
+}
+
+
+.about-us{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top:2rem;
+}
+
+.about-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width:90%;
+    background-color: #baffd72d;
+    border-radius:30px;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.about-left{
+    width:50%;
+}
+
+.about-left>img{
+    width:100%;
+}
+
+.about-right{
+    width:50%;
+}
+
+.heading{
+    font-size:1.25rem;
+   
+    font-weight:400;
+    letter-spacing:2px;
+    color:#1a4a2e;
+}
+
+.hazrat-designation{
+    font-size:4rem;
+    font-family: "EB Garamond", serif;
+    font-weight:400;
+    line-height:1rem;
+    color:#1a4a2e;
+}
+
+.hazrat-name{
+    font-style: italic;
+    letter-spacing:-1px;
+}
+
+.hazrat-description{
+    font-size:1.2rem;
+    line-height:1.5rem;
+    letter-spacing:-0.5px;
+}
+
+.pointers{
+    font-size: 1.35rem;
+    line-height:1.95rem;
+}
+
+.services{
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service-section{
+    width:90%;
+    background-color: #338e59;
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    border-radius:30px;
+ 
+}
+
+.services-head{
+    color:#fff;
+    
+}
+
+.service-heading{
+    font-size:1.25rem;
+   
+    font-weight:400;
+    letter-spacing:2px;
+}
+
+.our-services{
+    font-family: "EB Garamond", serif;
+    font-weight:400;
+    font-size:4rem;
+    line-height:1rem;
+}
+
+.services-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    gap:2rem;
+    margin-top:2rem;
+}
+
+.service-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:1px solid #fff;
+    border-radius:30px;
+    padding:1rem;
+}
+
+.service-name{
+    font-size:2rem;
+    font-family: "EB Garamond", serif;
+    color:#f4ca15;
+    font-weight:200;
+    line-height:1rem;
+   
+}
+
+.service-desc{
+    font-size:1.25rem;
+    margin-top:0rem;
+    color:#fff;
+    line-height: 1.5rem;
+    font-weight:200;
+    width: 90%;
+}
+
+.service-btn{
+    font-size:1.5rem;
+    background-color: #00000000;
+    border:1px solid #fff;
+    color:#fff;
+    padding:0.5rem;
+    width: 90%;
+    border-radius: 30px;
+    font-family: "EB Garamond",serif;
+    margin-top:1rem;
+}
+
+
+.events{
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.events-section{
+    width:90%;
+    background-color: #196639;
+    margin-top:2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    padding:2rem;
+    border-radius:30px;
+    gap:3rem;
+ 
+}
+
+.events-head{
+    width:30%;
+    color:#fff;
+}
+
+.upcoming-event{
+    font-family: "EB Garamond",serif;
+    font-size:4rem;
+    font-weight:200;
+    line-height:4.5rem;
+    
+}
+
+
+.event-btn{
+    border:1px solid #fff;
+    font-size:1.5rem;
+    border-radius:40px;
+    font-family: 'EB Garamond',serif;
+    padding:1rem;
+    
+    width: 90%;
+    background-color:#00000000;
+    color:#fff;
+    margin-top:0rem;
+}
+
+.events-row{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 70%;
+    gap:1rem;
+}
+
+.event-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:35%;
+    border:1px solid #f4ca15;
+    padding:1rem;
+    border-radius:30px;
+    
+    
+    
+}
+
+.event-div:hover{
+
+    box-shadow: #f4cb15c6 0.5rem 0.5rem 0px;
+    transition: box-shadow 0.3s;
+}
+
+.event-stroke{
+    height:1px;
+    width:100%;
+    background-color: #f4cb15bf;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+
+
+.event-details-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width:100%;
+}
+
+.dates{
+    font-size:1.75rem;
+    font-family:"EB Garamond",serif;
+    color:#fff;
+    font-weight:200;
+    line-height: 1rem;
+}
+
+.month-year{
+    font-size:1.5rem;
+    font-weight:200;
+}
+
+.event-tag{
+    background-color:#ffffff00;
+    border:1px solid #f4ca15;
+    border-radius:50px;
+    color:#fff;
+    padding:0.5rem;
+    font-size:1.25rem;
+    font-family:"EB Garamond",serif;
+    width: 40%;
+}
+
+.event-details{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.event-name{
+    font-size:1.5rem;
+    color:#fff;
+}
+
+.event-desc{
+    font-size:1.25rem;
+    color:#ffffffc9;
+    margin-top:1rem;
+}
+
+.location-time{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#fff;
+    gap:2rem;
+    margin-top:2rem;
+}
+
+.event-time{
+    color:#f4ca15;
+}
+
+.media{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.media-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:2rem;
+    width: 90%;
+    padding:2rem;
+    background-color: #fbeedf;
+    border-radius: 30px;
+}
+
+.media-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.media-heading{
+    font-size:1.25rem;
+    line-height:1rem;
+    color:#1a4a2e;
+    font-weight:400;
+    letter-spacing:2px;
+    margin-top: 2rem;
+}
+
+.bayans{
+    font-size:3rem;
+    line-height:1rem;
+    color:#1a4a2e;
+    font-family: "EB Garamond",serif;
+    font-weight:200;
+}
+
+.media-div{
+    width: 100%;
+    height: 90vh;
+    border-radius: 30px;
+    margin-top:2rem;
+}
+
+.swiper-slide{
+    border-radius:30px;
+}
+
+.media-stroke{
+    background-color:#f4ca15;
+    height:1px;
+    width:90%;
+}
+
+.media-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.media-btn-head{
+    font-size:2.5rem;
+    color:#1a4a2e;
+    font-weight:200;
+    text-align: center;
+    margin-top:2rem;
+
+}
+
+.btn-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:2rem;
+    width: 90%;
+    margin-top:2rem;
+}
+
+.media-btn{
+    font-size:2rem;
+    width:50%;
+    text-align: center;
+   border:1px solid #1a4a2e;
+    padding:1rem;
+    color:#1a4a2e;
+    border-radius:40px;
+    cursor:pointer
+}
+
+.gallery{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:2rem;
+}
+
+.gallery-section{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.gallery-div{
+    margin-top:2rem;
+}
+
+.gallery-image>img{
+    width:100%;
+    border-radius: 30px;
+}
+
+
+
+
