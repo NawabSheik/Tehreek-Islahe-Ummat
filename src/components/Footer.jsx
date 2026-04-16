@@ -33,12 +33,12 @@ const Footer = () => {
                 </div>
                 <div className="footer-col2">
                         <div className="footer-info">
-                        <h2 className="info-head">Headquarters</h2>
-                        <p className="info">Ganjdundwara, Uttar Pradesh</p>
+                        <h2 className="info-head">Find Us</h2>
+                        <p className="info">Bhilwara, Rajasthan</p>
                     </div>
                     <div className="footer-info">
                         <h2 className="info-head">Email</h2>
-                        <p className="info">Ganjdundwara, Uttar Pradesh</p>
+                        <p className="info">tehreekislaheummat@gmail.com</p>
                     </div>
                     
 

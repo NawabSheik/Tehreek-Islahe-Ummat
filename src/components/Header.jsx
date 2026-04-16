@@ -20,7 +20,7 @@ const Header = () => {
           {/* Desktop Nav */}
           <div className="navbar">
             <div className="nav-option">About Us</div>
-            <div className="nav-option">Our Services</div>
+            <div className="nav-option">Our Initiatives</div>
             <div className="nav-option">Media</div>
             <div className="nav-option">Gallery</div>
           </div>

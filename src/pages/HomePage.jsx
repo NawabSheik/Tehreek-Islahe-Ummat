@@ -25,7 +25,7 @@ const HomePage = () => {
         <div className="hero-div">
         <div class="hero-ornament">بسم الله الرحمن الرحيم</div>
             <div className='hero-section-inside'>
-                <h2 class="hero-badge">Established · Ganjdundwara, India</h2>
+                <h2 class="hero-badge">Established · Bhilwara (Raj.), India</h2>
                 <div class="hero-arabic">تحریک اصلاح امت</div>
                 <h1 class="hero-title">
                 Tehreek <br/>
