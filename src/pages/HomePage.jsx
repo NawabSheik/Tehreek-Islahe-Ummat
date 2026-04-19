@@ -103,7 +103,7 @@ const HomePage = () => {
         <div className="service-section">
             <div className="services-head">
             <h2 className='service-heading'>WHAT WE DO</h2>
-            <h1 className='our-services'>Our Services</h1>
+            <h1 className='our-services'>Our Initiatives</h1>
             </div>
             <div className="services-row">
             <div className="service-div">
@@ -119,24 +119,24 @@ const HomePage = () => {
             </div>
             <div className="service-div">
                 <h1 className="service-name">
-                    Darul Ifta
+                    Mehfil-e-Milad
                 </h1>
                 <p className="service-desc">
-                    Receive authentic Islamic rulings and guidance on matters of daily life, worship, transactions, family, and more from qualified scholars.
+                    Blessed gatherings to celebrate the birth of the Holy Prophet ﷺ with naat, speeches, and devotion — held across cities in India.
                 </p>
                 <button className="service-btn">
-                    Submit a Question
+                    View Events
                 </button>
             </div>
             <div className="service-div">
                 <h1 className="service-name">
-                    Darul Ifta
+                    Ijtema & Conferences
                 </h1>
                 <p className="service-desc">
-                    Receive authentic Islamic rulings and guidance on matters of daily life, worship, transactions, family, and more from qualified scholars.
+                   Large-scale Islamic conventions and annual gatherings bringing scholars, students, and the community together for learning and brotherhood.
                 </p>
                 <button className="service-btn">
-                    Submit a Question
+                    View Events
                 </button>
             </div>
             </div>
@@ -144,35 +144,35 @@ const HomePage = () => {
             <div className="services-row">
             <div className="service-div">
                 <h1 className="service-name">
-                    Darul Ifta
+                    Islamic Education
                 </h1>
                 <p className="service-desc">
-                    Receive authentic Islamic rulings and guidance on matters of daily life, worship, transactions, family, and more from qualified scholars.
+                    Religious education initiatives, study circles, and workshops covering Quran, Hadith, Fiqh, and Islamic ethics for all ages.
                 </p>
                 <button className="service-btn">
-                    Submit a Question
+                  Enquire 
                 </button>
             </div>
             <div className="service-div">
                 <h1 className="service-name">
-                    Darul Ifta
+                    Lectures & Bayans
                 </h1>
                 <p className="service-desc">
-                    Receive authentic Islamic rulings and guidance on matters of daily life, worship, transactions, family, and more from qualified scholars.
+                    Recorded and live lectures by Mufti Ashraf Jilani Azhari on a wide range of Islamic topics, available for the public online and offline.
                 </p>
                 <button className="service-btn">
-                    Submit a Question
+                    Watch / Listen
                 </button>
             </div>
             <div className="service-div">
                 <h1 className="service-name">
-                    Darul Ifta
+                    Community Welfare
                 </h1>
                 <p className="service-desc">
-                    Receive authentic Islamic rulings and guidance on matters of daily life, worship, transactions, family, and more from qualified scholars.
+                   Social welfare activities including assistance for those in need, nikah assistance, counselling, and community development programs.
                 </p>
                 <button className="service-btn">
-                    Submit a Question
+                    Get Involved
                 </button>
             </div>
             </div>

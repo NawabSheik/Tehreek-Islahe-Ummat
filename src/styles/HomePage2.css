@@ -354,7 +354,7 @@
     justify-content: center;
     flex-direction: row;
     width:90%;
-     background-color:#17d37822;
+    background-color: #baffd72d;
     border-radius:30px;
     padding-left:2rem;
     padding-right:2rem;
@@ -455,7 +455,7 @@
 
 .service-section{
     width:90%;
-     background-color:#17d37822;
+    background-color: #338e59;
     margin-top:2rem;
     display: flex;
     flex-direction: column;
@@ -465,7 +465,7 @@
 }
 
 .services-head{
-   color:#1a4a2e;
+    color:#fff;
     
 }
 
@@ -513,7 +513,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border:1px solid #f4ca15;
+    border:1px solid #fff;
     border-radius:30px;
     padding:1rem;
 }
@@ -523,7 +523,7 @@
     margin-top:1rem;
     margin-bottom:1rem;
     font-family: "EB Garamond", serif;
-    color:#1a4a2e;
+    color:#f4ca15;
     font-weight:200;
     line-height:1rem;
    
@@ -533,7 +533,7 @@
 .service-desc{
     font-size:1.25rem;
     margin-top:0rem;
-   color:#1a4a2e;
+    color:#fff;
     line-height: 1.5rem;
     font-weight:200;
     width: 90%;
@@ -555,8 +555,8 @@
 .service-btn{
     font-size:1.5rem;
     background-color: #00000000;
-    border:1px solid #f4ca15;
-   color:#1a4a2e;
+    border:1px solid #fff;
+    color:#fff;
     padding:0.5rem;
     width: 90%;
     border-radius: 30px;
@@ -575,7 +575,7 @@
 
 .events-section{
     width:90%;
-    background-color:#17d37822;
+    background-color: #196639;
     margin-top:2rem;
     display: flex;
     flex-direction: row-reverse;
@@ -588,7 +588,7 @@
 
 .events-head{
     width:30%;
-    color:#1a4a2e;
+    color:#fff;
     font-size:1.2rem;
 }
 
@@ -631,7 +631,7 @@
 
 
 .event-btn{
-    border:1px solid #1a4a2e;
+    border:1px solid #fff;
     font-size:1.5rem;
     border-radius:40px;
     font-family: 'EB Garamond',serif;
@@ -639,7 +639,7 @@
     
     width: 90%;
     background-color:#00000000;
-  color:#1a4a2e;
+    color:#fff;
     margin-top:4rem;
 }
 
@@ -712,7 +712,7 @@
 .dates{
     font-size:1.75rem;
     font-family:"EB Garamond",serif;
-   color:#1a4a2e;
+    color:#fff;
     font-weight:200;
       margin-top:1rem;
     line-height: 1rem;
@@ -739,7 +739,7 @@
     background-color:#ffffff00;
     border:1px solid #f4ca15;
     border-radius:50px;
-    color:#1a4a2e;
+    color:#fff;
     padding:0.5rem;
     font-size:1.25rem;
     font-family:"EB Garamond",serif;
@@ -755,12 +755,12 @@
 
 .event-name{
     font-size:1.5rem;
-    color:#1a4a2e;
+    color:#fff;
 }
 
 .event-desc{
     font-size:1.25rem;
-   color:#1a4a2e;
+    color:#ffffffc9;
     margin-top:1rem;
 }
 
@@ -769,7 +769,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    color:#1a4a2e;
+    color:#fff;
     gap:2rem;
     margin-top:2rem;
 }
@@ -793,7 +793,7 @@
     margin-top:2rem;
     width: 90%;
     padding:2rem;
-     background-color:#17d37822;
+    background-color: #fbeedf;
     border-radius: 30px;
 }
 
@@ -944,8 +944,3 @@
     width:100%;
     border-radius: 30px;
 }
-
-
-
-
-
