@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     margin-top:1.5rem;
+
    
     
 }
@@ -20,6 +21,8 @@
     padding-left:2rem;
     padding-right:2rem;
     border-radius: 30px;
+    padding-top:1rem;
+    padding-bottom:1rem;
 
 }
 
@@ -144,14 +147,46 @@
 
 /* MOBILE */
 @media (max-width: 768px) {
+
+  .header-div{
+     padding-left:1rem;
+    padding-right:1rem;
+    width: 87%;
+  }
     .logo{
-        width:90%
+        width:60%;
+        font-size:1.25rem;
     }
+
+  
+    
+    .english-logo{
+      font-size:1rem;
+    }
+
+   
   .navbar {
     display: none;
   }
 
   .hamburger {
     display: flex;
+    width:15%;
+  }
+
+  .contact-btn{
+    width:100%;
+    font-size:0.9rem;
+  
+    padding:0.5rem 0.25rem 0.5rem 0.25rem;
+  }
+
+  .right-section{
+    display: flex;
+    align-items: center;
+    width:40%;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap:1rem;
   }
 }
