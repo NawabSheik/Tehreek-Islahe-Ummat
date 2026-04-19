@@ -355,6 +355,7 @@
     flex-direction: row;
     width:90%;
      background-color:#17d37822;
+       border:2px solid #1a4a2e;
     border-radius:30px;
     padding-left:2rem;
     padding-right:2rem;
@@ -456,6 +457,7 @@
 .service-section{
     width:90%;
      background-color:#17d37822;
+       border:2px solid #1a4a2e;
     margin-top:2rem;
     display: flex;
     flex-direction: column;
@@ -582,6 +584,7 @@
     padding:2rem;
     border-radius:30px;
     gap:3rem;
+    border:2px solid #1a4a2e;
  
 }
 
@@ -794,6 +797,8 @@
     width: 90%;
     padding:2rem;
      background-color:#17d37822;
+    border:2px solid #1a4a2e;
+    
     border-radius: 30px;
 }
 
