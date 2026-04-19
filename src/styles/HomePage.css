@@ -878,6 +878,12 @@
     cursor:pointer
 }
 
+.swiper-button-prev, .swiper-button-next{
+    color:#fff !important;
+    width:2rem !important;
+    height: 2rem !important;
+}
+
 @media(max-width:768px){
     .media-section{
         width:87%;
