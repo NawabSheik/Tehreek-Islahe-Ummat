@@ -1,0 +1,311 @@
+.about-page{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+/* HERO */
+
+.about-hero{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:2rem;
+}
+
+.about-hero-div{
+    width:89%;
+    border:2px solid #1a4a2e;
+    border-radius:30px;
+    padding:4rem 2rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color:#17d37815;
+}
+
+.about-ornament{
+    font-size:2.5rem;
+    color:#1a4a2e;
+    opacity:60%;
+}
+
+.about-badge{
+    margin-top:2rem;
+    border:1px solid #1a4a2e;
+    padding:0.75rem 2rem;
+    border-radius:40px;
+    color:#1a4a2e;
+    font-weight:500;
+    letter-spacing:2px;
+}
+
+.about-title{
+    margin-top:2rem;
+    font-size:5rem;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+    color:#1a4a2e;
+    text-align:center;
+}
+
+.about-title span{
+    font-style:none;
+}
+
+.about-subtitle{
+    width:70%;
+    text-align:center;
+    font-size:1.3rem;
+    font-family: "Poppins",sans-serif;
+    line-height:2rem;
+    color:#000;
+}
+
+/* QURAN */
+
+.quran-section{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:3rem;
+    gap:2rem;
+}
+
+.quran-left,
+.quran-right{
+    width:45%;
+}
+
+.quran-arabic{
+    font-size:3.5rem;
+    text-align:right;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.quran-ref{
+    text-align:right;
+    color:#1a4a2e;
+    opacity:70%;
+    margin-top:2rem;
+}
+
+.quran-line{
+    width:2px;
+    height:15rem;
+    background-color:#f4ca15;
+}
+
+.quran-translation{
+    font-size:2.5rem;
+    font-family:"EB Garamond", serif;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.translation-ref{
+    color:#1a4a2e;
+    opacity:70%;
+    font-weight: 200;
+    margin-top:2rem;
+}
+
+/* ABOUT */
+
+.about-main{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:3rem;
+}
+
+.about-main-div{
+    width:90%;
+    display:flex;
+    gap:3rem;
+    align-items:center;
+    background:#f9fff9;
+    border-radius:30px;
+    padding:2rem;
+    border:2px solid #1a4a2e;
+}
+
+.about-image{
+    width:55%;
+}
+
+.about-image img{
+    width:100%;
+}
+
+.about-content{
+    width:55%;
+}
+
+.section-tag{
+    letter-spacing:2px;
+    color:#1a4a2e;
+    font-weight:500;
+}
+
+.about-heading{
+    margin-top:1rem;
+    font-size:4rem;
+    line-height:4rem;
+    font-family:"EB Garamond", serif;
+    color:#1a4a2e;
+    font-weight:300;
+    letter-spacing: -1.25px;
+}
+
+.about-heading span{
+    font-style:italic;
+    letter-spacing: -1.25px;
+}
+
+.about-description{
+    margin-top:1.5rem;
+    font-size:1rem;
+    line-height:1.25rem;
+    font-family: "Poppins";
+    color:#333;
+}
+
+.about-list{
+    margin-top:2rem;
+}
+
+.about-list li{
+    font-size:1.2rem;
+    margin-top:1rem;
+    color:#1a4a2e;
+}
+
+/* MISSION */
+
+.mission-vision{
+    width:95%;
+    display:flex;
+    gap:2rem;
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
+.mission-card{
+    width:50%;
+    background:#338e59;
+    padding:3rem;
+    border-radius:30px;
+    color:#fff;
+}
+
+.mv-tag{
+    letter-spacing:2px;
+    font-weight:400;
+}
+
+.mv-heading{
+    margin-top:1rem;
+    font-size:3rem;
+    line-height:3.5rem;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+    color:#f4ca15;
+}
+
+.mv-description{
+    margin-top:2rem;
+    font-size:1.15rem;
+    line-height:2rem;
+}
+
+.mv-quote{
+    margin-top:2rem;
+    font-size:1.5rem;
+    font-family:"EB Garamond", serif;
+    color:#f4ca15;
+    font-style:italic;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .about-title{
+        font-size:3rem;
+    }
+
+    .about-subtitle{
+        width:100%;
+        font-size:1rem;
+    }
+
+    .quran-section{
+        flex-direction:column;
+    }
+
+    .quran-left,
+    .quran-right{
+        width:100%;
+    }
+
+    .quran-arabic{
+        text-align:center;
+        font-size:2.5rem;
+    }
+
+    .quran-ref{
+        text-align:center;
+    }
+
+    .quran-translation{
+        text-align:center;
+        font-size:2rem;
+    }
+
+    .translation-ref{
+        text-align:center;
+    }
+
+    .quran-line{
+        width:90%;
+        height:1px;
+    }
+
+    .about-main-div{
+        flex-direction:column;
+    }
+
+    .about-image{
+        width:100%;
+    }
+
+    .about-content{
+        width:100%;
+    }
+
+    .about-heading{
+        font-size:2.5rem;
+        line-height:3rem;
+    }
+
+    .mission-vision{
+        flex-direction:column;
+    }
+
+    .mission-card{
+        width:100%;
+        padding:2rem;
+    }
+
+    .mv-heading{
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+}

@@ -1,0 +1,282 @@
+
+.media-page{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+/* HERO */
+
+.media-hero{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:2rem;
+}
+
+.media-hero-div{
+    width:90%;
+    padding:4rem 2rem;
+    border:2px solid #1a4a2e;
+    border-radius:30px;
+    background:#17d37815;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.media-ornament{
+    font-size:2rem;
+    color:#1a4a2e;
+    opacity:60%;
+    text-align:center;
+}
+
+.media-badge{
+    margin-top:2rem;
+    border:1px solid #1a4a2e;
+    padding:0.75rem 2rem;
+    border-radius:40px;
+    color:#1a4a2e;
+    letter-spacing:2px;
+}
+
+.media-title{
+    margin-top:2rem;
+    font-size:5rem;
+    font-family:"EB Garamond", serif;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.media-title span{
+    font-style:italic;
+}
+
+.media-subtitle{
+    width:70%;
+    text-align:center;
+    margin-top:1rem;
+    font-size:1.2rem;
+    line-height:2rem;
+    color:#1a4a2e;
+}
+
+/* QUOTE */
+
+.media-quote{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:3rem;
+    gap:2rem;
+}
+
+.media-quote-left,
+.media-quote-right{
+    width:45%;
+}
+
+.media-arabic{
+    text-align:right;
+    font-size:3.5rem;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.media-ref{
+    text-align:right;
+    color:#1a4a2e;
+    opacity:70%;
+}
+
+.media-line{
+    width:2px;
+    height:12rem;
+    background:#f4ca15;
+}
+
+.media-translation{
+    font-size:3rem;
+    color:#1a4a2e;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+}
+
+.media-translation-ref{
+    color:#1a4a2e;
+    opacity:70%;
+}
+
+/* LONG VIDEOS */
+
+.youtube-section{
+    width:90%;
+    margin-top:3rem;
+    background:#338e59;
+    border-radius:30px;
+    padding:3rem 2rem;
+}
+
+.section-head{
+    color:#fff;
+}
+
+.small-heading{
+    letter-spacing:2px;
+    font-weight:400;
+}
+
+.main-heading{
+    margin-top:1rem;
+    font-size:4rem;
+    line-height:4rem;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+}
+
+.video-slider{
+    width:100%;
+    margin-top:3rem;
+}
+
+.video-frame{
+    width:100%;
+    height:80vh;
+    border-radius:30px;
+    overflow:hidden;
+}
+
+.video-frame iframe{
+    border:none;
+}
+
+/* SHORTS */
+
+.shorts-section{
+    width:90%;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    padding:3rem 2rem;
+    border-radius:30px;
+    border:2px solid #1a4a2e;
+    background:#f9fff9;
+}
+
+.green-text{
+    color:#1a4a2e;
+}
+
+.shorts-grid{
+    margin-top:3rem;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:2rem;
+}
+
+.short-card{
+    border:1px solid #1a4a2e;
+    border-radius:30px;
+    padding:1rem;
+    background:#fff;
+}
+
+.short-video{
+    width:100%;
+    height:60vh;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.short-video iframe{
+    border:none;
+}
+
+.short-title{
+    margin-top:1rem;
+    text-align:center;
+    font-size:1.5rem;
+    color:#1a4a2e;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+}
+
+/* SWIPER */
+
+.swiper-button-prev,
+.swiper-button-next{
+    color:#fff !important;
+}
+
+.swiper-pagination-bullet-active{
+    background:#f4ca15 !important;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .media-title{
+        font-size:3rem;
+        text-align:center;
+    }
+
+    .media-subtitle{
+        width:100%;
+        font-size:1rem;
+    }
+
+    .media-quote{
+        flex-direction:column;
+    }
+
+    .media-quote-left,
+    .media-quote-right{
+        width:100%;
+    }
+
+    .media-arabic{
+        text-align:center;
+        font-size:2.5rem;
+    }
+
+    .media-ref{
+        text-align:center;
+    }
+
+    .media-line{
+        width:90%;
+        height:1px;
+    }
+
+    .media-translation{
+        text-align:center;
+        font-size:2rem;
+    }
+
+    .media-translation-ref{
+        text-align:center;
+    }
+
+    .main-heading{
+        font-size:2.5rem;
+        line-height:3rem;
+    }
+
+    .video-frame{
+        height:35vh;
+    }
+
+    .shorts-grid{
+        grid-template-columns:1fr;
+    }
+
+    .short-video{
+        height:90vh;
+    }
+}
+

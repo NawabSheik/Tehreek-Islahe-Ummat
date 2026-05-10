@@ -1,0 +1,285 @@
+.initiatives-page{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+/* HERO */
+
+.initiative-hero{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:2rem;
+}
+
+.initiative-hero-div{
+    width:90%;
+    padding:4rem 2rem;
+    border:2px solid #1a4a2e;
+    border-radius:30px;
+    background:#17d37815;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.initiative-ornament{
+    font-size:2.5rem;
+    color:#1a4a2e;
+    opacity:60%;
+}
+
+.initiative-badge{
+    margin-top:2rem;
+    border:1px solid #1a4a2e;
+    padding:0.75rem 2rem;
+    border-radius:40px;
+    color:#1a4a2e;
+    letter-spacing:2px;
+    font-weight:500;
+}
+
+.initiative-title{
+    margin-top:2rem;
+    font-size:5rem;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+    color:#1a4a2e;
+}
+
+.initiative-title span{
+    font-style:italic;
+}
+
+.initiative-subtitle{
+    width:70%;
+    margin-top:1rem;
+    text-align:center;
+    font-size:1.2rem;
+    line-height:2rem;
+    color:#1a4a2e;
+}
+
+/* QUOTE */
+
+.initiative-quote{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:3rem;
+    gap:2rem;
+}
+
+.initiative-quote-left,
+.initiative-quote-right{
+    width:45%;
+}
+
+.initiative-arabic{
+    text-align:right;
+    font-size:4rem;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.initiative-arabic-ref{
+    text-align:right;
+    color:#1a4a2e;
+    opacity:70%;
+}
+
+.initiative-line{
+    width:2px;
+    height:10rem;
+    background:#f4ca15;
+}
+
+.initiative-english{
+    font-size:3rem;
+    font-family:"EB Garamond", serif;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.initiative-english-ref{
+    color:#1a4a2e;
+    opacity:70%;
+}
+
+/* SECTION */
+
+.initiatives-section{
+    width:90%;
+    margin-top:3rem;
+    background:#338e59;
+    border-radius:30px;
+    padding:3rem 2rem;
+}
+
+.initiatives-head{
+    color:#fff;
+}
+
+.initiative-small-heading{
+    letter-spacing:2px;
+    font-weight:400;
+}
+
+.initiative-main-heading{
+    margin-top:1rem;
+    font-size:4rem;
+    line-height:4.5rem;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+}
+
+.initiatives-grid{
+    margin-top:3rem;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:2rem;
+}
+
+.initiative-card{
+    border:1px solid #f4ca15;
+    border-radius:30px;
+    padding:2rem;
+    color:#fff;
+    transition:0.3s;
+}
+
+.initiative-card:hover{
+    transform:translateY(-5px);
+    box-shadow:#f4ca15a8 0.5rem 0.5rem 0px;
+}
+
+.initiative-card-title{
+    font-size:2rem;
+    font-family:"EB Garamond", serif;
+    color:#f4ca15;
+    font-weight:300;
+}
+
+.initiative-card-desc{
+    margin-top:1.5rem;
+    font-size:1.1rem;
+    line-height:1.9rem;
+}
+
+.initiative-btn{
+    margin-top:2rem;
+    width:100%;
+    border:1px solid #fff;
+    background:transparent;
+    color:#fff;
+    padding:0.9rem;
+    border-radius:40px;
+    font-size:1.2rem;
+    font-family:"EB Garamond", serif;
+    cursor:pointer;
+}
+
+/* ENDING */
+
+.initiative-ending{
+    width:90%;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    padding:4rem 2rem;
+    border-radius:30px;
+    background:#f9fff9;
+    border:2px solid #1a4a2e;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.ending-heading{
+    font-size:4rem;
+    text-align:center;
+    font-family:"EB Garamond", serif;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.ending-description{
+    margin-top:2rem;
+    width:70%;
+    text-align:center;
+    font-size:1.2rem;
+    line-height:2rem;
+    color:#1a4a2e;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .initiative-title{
+        font-size:3rem;
+        text-align:center;
+    }
+
+    .initiative-subtitle{
+        width:100%;
+        font-size:1rem;
+    }
+
+    .initiative-quote{
+        flex-direction:column;
+    }
+
+    .initiative-quote-left,
+    .initiative-quote-right{
+        width:100%;
+    }
+
+    .initiative-arabic{
+        text-align:center;
+        font-size:2.5rem;
+    }
+
+    .initiative-arabic-ref{
+        text-align:center;
+    }
+
+    .initiative-line{
+        width:90%;
+        height:1px;
+    }
+
+    .initiative-english{
+        text-align:center;
+        font-size:2rem;
+    }
+
+    .initiative-english-ref{
+        text-align:center;
+    }
+
+    .initiative-main-heading{
+        font-size:2.5rem;
+        line-height:3rem;
+    }
+
+    .initiatives-grid{
+        grid-template-columns:1fr;
+    }
+
+    .ending-heading{
+        font-size:2.5rem;
+    }
+
+    .ending-description{
+        width:100%;
+        font-size:1rem;
+    }
+}

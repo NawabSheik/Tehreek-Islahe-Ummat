@@ -1,0 +1,156 @@
+
+.gallery-page{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* HERO */
+
+.gallery-hero{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:2rem;
+}
+
+.gallery-hero-div{
+    width:90%;
+    padding:4rem 2rem;
+    border:2px solid #1a4a2e;
+    border-radius:30px;
+    background:#17d37815;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.gallery-ornament{
+    font-size:2rem;
+    color:#1a4a2e;
+    opacity:60%;
+    text-align:center;
+}
+
+.gallery-badge{
+    margin-top:2rem;
+    border:1px solid #1a4a2e;
+    padding:0.75rem 2rem;
+    border-radius:40px;
+    color:#1a4a2e;
+    letter-spacing:2px;
+}
+
+.gallery-title{
+    margin-top:2rem;
+    font-size:5rem;
+    font-family:"EB Garamond", serif;
+    color:#1a4a2e;
+    font-weight:300;
+}
+
+.gallery-title span{
+    font-style:italic;
+}
+
+.gallery-subtitle{
+    width:70%;
+    text-align:center;
+    margin-top:1rem;
+    font-size:1.2rem;
+    line-height:2rem;
+    color:#1a4a2e;
+}
+
+/* GALLERY */
+
+.gallery-section{
+    width:90%;
+    margin-top:3rem;
+    margin-bottom:3rem;
+
+    background:#f9fff9;
+    border:2px solid #1a4a2e;
+    border-radius:30px;
+
+    padding:3rem 2rem;
+}
+
+.gallery-head{
+    margin-bottom:3rem;
+}
+
+.gallery-small-heading{
+    letter-spacing:2px;
+    color:#1a4a2e;
+    font-weight:400;
+}
+
+.gallery-main-heading{
+    margin-top:1rem;
+    font-size:4rem;
+    line-height:4rem;
+    color:#1a4a2e;
+    font-family:"EB Garamond", serif;
+    font-weight:300;
+}
+
+/* MASONRY GRID */
+
+.gallery-grid{
+    column-count:3;
+    column-gap:1.5rem;
+}
+
+.gallery-item{
+    break-inside:avoid;
+    margin-bottom:1.5rem;
+}
+
+.gallery-item img{
+    width:100%;
+    height:auto;
+    display:block;
+
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.gallery-item img:hover{
+    transform:scale(1.02);
+}
+
+/* TABLET */
+
+@media(max-width:1024px){
+
+    .gallery-grid{
+        column-count:2;
+    }
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .gallery-title{
+        font-size:3rem;
+        text-align:center;
+    }
+
+    .gallery-subtitle{
+        width:100%;
+        font-size:1rem;
+    }
+
+    .gallery-main-heading{
+        font-size:2.5rem;
+        line-height:3rem;
+    }
+
+    .gallery-grid{
+        column-count:1;
+    }
+}
