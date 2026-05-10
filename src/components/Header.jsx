@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,18 +12,22 @@ const Header = () => {
           
           {/* Logo */}
           <h2 className="logo">
-            تحریک اصلاح امت
-            <span className="english-logo">
-              Tehreek Islahe Ummat
+            <Link to="/" className="nav-link">
+               تحریک اصلاح امت
+            </Link>
+            
+            <span className="english-logo"><Link to="/" className="nav-link">
+              Tehreek Islahe Ummat</Link>
             </span>
+            
           </h2>
 
           {/* Desktop Nav */}
           <div className="navbar">
-            <div className="nav-option">About Us</div>
-            <div className="nav-option">Our Initiatives</div>
-            <div className="nav-option">Media</div>
-            <div className="nav-option">Gallery</div>
+            <div className="nav-option"><Link to="/about" className="nav-link">About Us </Link></div>
+            <div className="nav-option"><Link to="/initiatives" className="nav-link">Our Initiatives </Link></div>
+            <div className="nav-option"> <Link to="/media" className="nav-link"> Media </Link></div>
+            <div className="nav-option"><Link to="/gallery" className="nav-link">Gallery </Link> </div>
           </div>
 
           {/* Right */}

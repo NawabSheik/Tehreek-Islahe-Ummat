@@ -84,7 +84,8 @@ const HomePage = () => {
             <div className="about-right">
                 <h3 className="heading">ABOUT US</h3>
                 <h1 className="hazrat-designation">Mufti <span className='hazrat-name'> Ashraf Jilani </span>Azhari</h1>
-                <p className="hazrat-description">Mufti Ashraf Jilani Azhari is a distinguished Islamic scholar from Ganjdundwara, India, and a graduate of the prestigious Al-Azhar University, Cairo, Egypt — one of the world's oldest and most revered centres of Islamic learning.
+                 <h3 className="sub-heading">Mufti Hanafi Darul Ifta, Qazi-e-Sheher (Bhilwara, Rajasthan) </h3>
+                <p className="hazrat-description">Mufti Ashraf Jilani Azhari is a distinguished Islamic scholar from Dhava, Ganjdundwara (Dist. Kasganj),  India, and a graduate of the prestigious Al-Azhar University, Cairo, Egypt — one of the world's oldest and most revered centres of Islamic learning.
 
                     As the founder and head of Tehreek Islahe Ummat, Mufti Sahib has dedicated his life to the spiritual reformation and moral upliftment of the Muslim Ummah. Through Darul Ifta, educational programs, and large-scale events, the organisation reaches Muslims across India.
 
@@ -93,7 +94,7 @@ const HomePage = () => {
                     <li className="pointers">Graduate, Al-Azhar University, Cairo, Egypt</li>
                     <li className="pointers">Head of Darul Ifta, Tehreek Islahe Ummat</li>
                     <li className="pointers">Islamic scholar and orator across India</li>
-                    <li className="pointers">Organiser of Milad, Ijtema & educational programs</li>
+                    <li className="pointers">Organiser of Milad, Ijtema, Ijtemai Ehtekaaf & educational programs</li>
                 </ul>
             </div>
         </div>

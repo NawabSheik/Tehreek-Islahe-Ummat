@@ -42,6 +42,7 @@
     flex-direction: column;
     width:30%;
     font-size:2rem;
+    cursor: pointer;
 }
 
 
@@ -51,6 +52,7 @@
     font-weight:400;
     letter-spacing:-0.25px;
     font-family: "Poppins",sans-serif;
+    cursor: pointer;
 }
 
 .navbar{
@@ -189,4 +191,10 @@
     flex-direction: row-reverse;
     gap:1rem;
   }
+}
+
+.nav-link{
+  text-decoration: none;
+  color:#000;
+  cursor: pointer;
 }
