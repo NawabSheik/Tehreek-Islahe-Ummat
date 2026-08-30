@@ -57,10 +57,10 @@ const Header = () => {
 
         {/* Menu Items */}
         <div className="menu-items">
-          <Link to="/about" className="menu-item">About Us</Link>
-          <Link to="/initiatives" className="menu-item">Our Initiatives</Link>
-          <Link to="/media" className="menu-item">Media</Link>
-          <Link to="/gallery" className="menu-item">Gallery</Link>
+          <Link to="/about" className="menu-item" onClick={() => setIsOpen(false)}>About Us</Link>
+          <Link to="/initiatives" className="menu-item" onClick={() => setIsOpen(false)}>Our Initiatives</Link>
+          <Link to="/media" className="menu-item" onClick={() => setIsOpen(false)}>Media</Link>
+          <Link to="/gallery" className="menu-item" onClick={() => setIsOpen(false)}>Gallery</Link>
           
         </div>
       </div>

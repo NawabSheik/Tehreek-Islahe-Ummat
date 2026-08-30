@@ -30,6 +30,7 @@
 
 .about-ornament{
     font-size:2.5rem;
+    text-align: center;
     color:#1a4a2e;
     opacity:60%;
 }
@@ -37,6 +38,7 @@
 .about-badge{
     margin-top:2rem;
     border:1px solid #1a4a2e;
+    text-align: center;
     padding:0.75rem 2rem;
     border-radius:40px;
     color:#1a4a2e;
@@ -237,6 +239,10 @@
 
 @media(max-width:768px){
 
+    .about-hero-div{
+        width: 80%;
+    }
+
     .about-title{
         font-size:3rem;
     }
@@ -247,6 +253,7 @@
     }
 
     .quran-section{
+        width: 90%;
         flex-direction:column;
     }
 
@@ -278,6 +285,10 @@
         height:1px;
     }
 
+    .about-main{
+        width: 95%;
+    }
+
     .about-main-div{
         flex-direction:column;
     }
@@ -296,11 +307,13 @@
     }
 
     .mission-vision{
+        width: 95%;
         flex-direction:column;
+    
     }
 
     .mission-card{
-        width:100%;
+        width:82.5%;
         padding:2rem;
     }
 
