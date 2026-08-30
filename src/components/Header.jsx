@@ -57,11 +57,11 @@ const Header = () => {
 
         {/* Menu Items */}
         <div className="menu-items">
-          <div className="menu-item">About Us</div>
-          <div className="menu-item">Our Services</div>
-          <div className="menu-item">Media</div>
-          <div className="menu-item">Gallery</div>
-          <button className="contact-btn">Contact Us</button>
+          <Link to="/about" className="menu-item">About Us</Link>
+          <Link to="/initiatives" className="menu-item">Our Initiatives</Link>
+          <Link to="/media" className="menu-item">Media</Link>
+          <Link to="/gallery" className="menu-item">Gallery</Link>
+          
         </div>
       </div>
     </>
